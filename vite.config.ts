@@ -11,4 +11,9 @@ export default defineConfig({
 		reactRouter(),
 		tsconfigPaths(),
 	],
+	resolve: {
+		alias: {
+			"react-router-dom": "react-router",
+		},
+	},
 });
