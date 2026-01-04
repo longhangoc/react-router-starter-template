@@ -2,13 +2,24 @@
 
 Đây là giao diện được thiết kế bởi **LONG HA NGOC** ✨
 
-## Giao diện chính
+## 🎨 Giao diện chính
 
 Giao diện đã được tối giản hóa với:
 - 🎨 Gradient màu tím, hồng, cam
 - 👤 Tên "LONG HA NGOC" nổi bật
 - ✨ Thông điệp "Was here"
 - 🔗 Các liên kết nhanh
+
+## 📄 PDF to Text Converter
+
+Trang web hỗ trợ chuyển đổi file PDF sang văn bản:
+
+- 📁 Upload file PDF
+- 📖 Đọc tất cả các trang
+- 📝 Trích xuất toàn bộ text
+- 💾 Tải về file .txt
+
+**Truy cập:** `/pdf`
 
 ## Development
 

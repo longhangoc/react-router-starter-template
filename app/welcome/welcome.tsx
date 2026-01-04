@@ -51,11 +51,15 @@ export function Welcome({ message }: { message: string }) {
 
 const resources = [
 	{
+		href: "/pdf",
+		text: "📄 PDF to Text Converter",
+	},
+	{
 		href: "https://reactrouter.com/docs",
-		text: "React Router Docs",
+		text: "📚 React Router Docs",
 	},
 	{
 		href: "https://rmx.as/discord",
-		text: "Join Discord",
+		text: "💬 Join Discord",
 	},
 ];
