@@ -1,17 +1,23 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
 	return [
-		{ title: "LONG HA NGOC - Welcome" },
-		{ name: "description", content: "Welcome to LONG HA NGOC's world! Was here ✨" },
+		{ title: "LONG HA NGOC" },
+		{ name: "description", content: "Was here ✨" },
 	];
 }
 
-export function loader({ context }: Route.LoaderArgs) {
-	return { message: context.cloudflare.env.VALUE_FROM_CLOUDFLARE };
-}
-
-export default function Home({ loaderData }: Route.ComponentProps) {
-	return <Welcome message={loaderData.message} />;
+export default function Home() {
+	return (
+		<main className="min-h-screen flex items-center justify-center bg-white dark:bg-black">
+			<div className="text-center">
+				<h1 className="text-6xl md:text-8xl font-bold text-black dark:text-white mb-4">
+					LONG HA NGOC
+				</h1>
+				<p className="text-2xl md:text-3xl text-gray-600 dark:text-gray-400">
+					Was here ✨
+				</p>
+			</div>
+		</main>
+	);
 }
